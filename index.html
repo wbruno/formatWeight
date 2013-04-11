@@ -1,0 +1,9 @@
+<script type="text/javascript" src="formatWeight.js"></script>
+<script type="text/javascript">
+window.onload = function(){
+	id('peso').onkeyup = function(){
+		this.value = formatWeight(this.value);
+	}
+};
+</script>
+<input type="text" name="peso" id="peso" maxlength="8" />
