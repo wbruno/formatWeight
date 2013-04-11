@@ -1,9 +1,21 @@
-<script type="text/javascript" src="formatWeight.js"></script>
-<script type="text/javascript">
-window.onload = function(){
-	id('peso').onkeyup = function(){
-		this.value = formatWeight(this.value);
-	}
-};
-</script>
-<input type="text" name="peso" id="peso" maxlength="8" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>formatWeight</title>
+</head>
+<body>
+
+	<input type="text" name="peso" id="peso" maxlength="8" />
+
+
+	<script type="text/javascript" src="formatWeight.js"></script>
+	<script type="text/javascript">
+	window.onload = function(){
+		id('peso').onkeyup = function(){
+			this.value = formatWeight(this.value);
+		}
+	};
+	</script>
+</body>
+</html>
